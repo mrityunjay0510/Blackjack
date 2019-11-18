@@ -13,7 +13,10 @@ class Deck:
     random.shuffle(self.deck)
   pass
 
-  
+  def deal(self):
+    single_Card = self.deck.pop()
+    return single_Card
+
   def printCards(self):
     for v in self.deck :
       print(v)

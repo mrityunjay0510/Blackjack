@@ -4,8 +4,10 @@ class Chips:
     self.bet=0
 
   def win_bet(self):
+    self.total += self.bet
     pass
 
   def lose_bet(self):
+    self.total -= self.bet
     pass
   
